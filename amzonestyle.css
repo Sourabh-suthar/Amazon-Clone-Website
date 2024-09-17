@@ -1,0 +1,639 @@
+body{
+    margin: 0;
+    padding: 0;  
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e3e6e6;
+}
+.navbar{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    position: fixed;
+    top: 0;
+    z-index: 5;
+    width: 100%;
+    height: 60px;
+    background-color:#131921;
+}
+.logo img{
+    height: 50px;
+    width: 128px;
+   display: flex;
+   align-items: center;
+   margin-top: 2px;
+   cursor: pointer;
+}
+.logo img:hover{
+    border: 1px solid #fff;
+}
+.address{
+    height: 36px;
+    width: 188px;
+    margin: 3px 0 5px 5px;
+    padding: 9px 0 9px 2px;
+    cursor: pointer;
+}
+.address div{
+    color: #fff;
+    line-height: 14px;
+}
+.address:hover{
+    border: 1px solid #fff;
+}
+.search{
+    width: 45%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 1px 2px 0 ;
+}
+.search .sea-left select{
+    height: 40px;
+    width: 55px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: #f6f4f4;
+    padding: 5px 0 5px 12px;
+    border: none;
+}
+.search .sea-main input{
+    height: 35px;
+    width: 450px;
+}
+.search .sea-right button{
+    height: 40px;
+    width: 45px;
+    background-color:#febd69;
+    color: #232f3e;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius:5px ;
+}
+.search .sea-right button:hover{
+    background-color: #e18917;
+}
+.search .sea-right button i{
+    font-size: 20px;
+}
+.lan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    height: 30px;
+    margin-top: 20px;
+}
+.lan img{
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+}
+.lan select{
+    background-color: transparent;
+    color: #878787;
+    font-weight: 600;
+    border: none;
+}
+.lan:hover{
+    border: 1px solid #fff;
+}
+.signin{
+    height: 34px;
+    width: 120px;
+    margin: 5px 0 5px 9px;
+    padding: 9px 0 9px 2px;
+    cursor: pointer;
+}
+.signin:hover{
+    border: 1px solid #fff;
+
+}
+.signin div{
+    color: #fff;
+    line-height: 17px;
+}
+.retrun{
+    height: 33px;
+    width: 69px;
+    margin: 5px 0 5px 9px;
+    padding: 9px 0 9px 2px;
+    cursor: pointer;
+}
+.retrun:hover{
+    border: 1px solid #fff;
+
+}
+.retrun div{
+    color: #fff;
+    line-height: 17px;
+}
+.cart{
+    height: 53px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.cart:hover{
+    border: 1px solid #fff;
+
+}
+.cart i{
+    color: #fff;
+    font-size: 30px;
+    margin:19px 5px 2px 1px;
+}
+.cart div{
+    color: #fff;
+    font-size: 16px;
+    margin : 33px 0 0 2px;
+}
+.panel{
+    width: 100%;
+    height: 38px;
+    position: relative;
+    top: 60px;
+    background-color: #232f3e;
+    display: flex;
+}
+.panel .all{
+    width: 48px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    margin:0 0 3px 13px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.panel .all:hover{
+    border: 1px solid white;
+}
+.panel .all i{
+    margin-right: 7px;
+}
+.panel .panel-option {
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+.panel .panel-option p{
+    margin: 5px 0 6px;
+    padding: 8px 9px;
+    cursor: pointer;
+}
+.panel .panel-option p:hover{
+    border: 1px solid white;
+}
+.panel .prime{
+    color: #f6f4f4;
+    font-size: 15px;
+    height: 34px;
+    opacity: 0.9;
+    display: flex;
+    align-items: center;
+    margin-left: 60px
+}
+.panel .prime:hover{
+    border: 1px solid white;
+}
+/* hero- section */
+.hero-section{
+    margin-top: 60px;
+    height: 600px;
+    width: 100%;
+    background-image: url("./assent2/PC_hero_1_2x._CB599886239_.jpg");
+    background-size: cover;
+}
+ .card-contanier{
+     display: flex;
+     flex-wrap: wrap;
+     
+}
+ .card{
+    height: 400px;
+    width: 300px;
+    background-color: #fff;
+    border: 1px solid #d3cfcf;
+    position: absolute;
+    top: 379px;
+    left: 20px;
+}
+.card h2{
+    margin: 20px 20px 5px 20px;
+}
+.card img{
+    height: 270px;
+    width: 260px;
+    margin: 5px 20px 10px 20px;
+    cursor: pointer;
+}
+.card a{
+    text-decoration: none;
+    margin: 5px 20px 10px 20px;
+    color: #2f8b9c;
+}
+.card a:hover{
+    color: rgb(240, 128, 16);
+}
+.card-2{
+    height: 400px;
+    width: 300px;
+    background-color: #fff;
+    border: 1px solid #d3cfcf;
+    position: absolute;
+    top: 379px;
+    left: 338px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card-2 h2{
+    margin: 20px 20px 5px 18px;
+}
+.card-2 div img{
+    height: 110px;
+    width: 120px;
+    margin: 5px 10px 5px 15px;
+    cursor: pointer;
+}
+.card-2 div p{
+    font-size: 12px;
+    opacity: 0.8;
+    margin: -5px 0 5px 15px;
+}
+.card-2 a{
+    text-decoration: none;
+    margin: 8px 20px 8px 20px;
+    color: #2f8b9c;
+}
+.card-2 a:hover{
+    color: rgb(240, 128, 16);
+}
+.card-3{
+    height: 400px;
+    width: 300px;
+    background-color: #fff;
+    border: 1px solid #d3cfcf;
+    position: absolute;
+    top: 379px;
+    left: 655px;
+}
+.card-3 h2{
+    margin: 20px 20px 5px 20px;
+}
+.card-3 img{
+    height: 270px;
+    width: 260px;
+    margin: 5px 20px 10px 20px;
+    cursor: pointer;
+
+}
+.card-3 a{
+    text-decoration: none;
+    margin: 5px 20px 10px 20px;
+    color: #2f8b9c;
+}
+.card-3 a:hover{
+    color: rgb(240, 128, 16);
+}
+.card-4{
+    height: 150px;
+    width: 280px;
+    background-color: #fff;
+    border: 1px solid #d3cfcf;
+    position: absolute;
+    top: 379px;
+    left: 970px;
+}
+.card-4 h2{
+    margin: 20px 20px 5px 20px;
+}
+.card-4 button{
+    background-color: #ffd814;
+    color: #000;
+    border: none;
+    margin: 13px 15px 20px 15px;
+    width: 250px;
+    height: 30px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.card-4 button:hover{
+    background-color: #eab50a;
+}
+.card-5 img{
+    height: 230px;
+    width: 280px;
+    position: absolute;
+    top: 550px;
+    left: 970px;
+}
+.card-6{
+    height: 400px;
+    width: 300px;
+    background-color: #fff;
+    border: 1px solid #d3cfcf;
+    position: absolute;
+    top: 800px;
+    left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card-6 h2{
+    margin: 20px 20px 5px 18px;
+}
+.card-6 div img{
+    height: 110px;
+    width: 120px;
+    margin: 5px 10px 5px 15px;
+    cursor: pointer;
+
+}
+.card-6 div p{
+    font-size: 12px;
+    opacity: 0.8;
+    margin: -5px 0 5px 15px;
+}
+.card-6 a{
+    text-decoration: none;
+    margin: 8px 20px 8px 20px;
+    color: #2f8b9c;
+}
+.card-6 a:hover{
+    color: rgb(240, 128, 16);
+}
+.card-7{
+    height: 400px;
+    width: 300px;
+    background-color: #fff;
+    border: 1px solid #d3cfcf;
+    position: absolute;
+    top: 800px;
+    left: 338px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card-7 h2{
+    margin: 20px 20px 5px 18px;
+}
+.card-7 div img{
+    height: 110px;
+    width: 120px;
+    margin: 5px 10px 5px 15px;
+    cursor: pointer;
+
+}
+.card-7 div p{
+    font-size: 12px;
+    opacity: 0.8;
+    margin: -5px 0 5px 15px;
+}
+.card-7 a{
+    text-decoration: none;
+    margin: 8px 20px 8px 20px;
+    color: #2f8b9c;
+}
+.card-7 a:hover{
+    color: rgb(240, 128, 16);
+}
+.card-8{
+    height: 400px;
+    width: 300px;
+    background-color: #fff;
+    border: 1px solid #d3cfcf;
+    position: absolute;
+    top: 800px;
+    left: 655px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card-8 h2{
+    margin: 20px 20px 5px 18px;
+}
+.card-8 div img{
+    height: 110px;
+    width: 120px;
+    margin: 5px 10px 5px 15px;
+    cursor: pointer;
+
+}
+.card-8 div p{
+    font-size: 12px;
+    opacity: 0.8;
+    margin: -5px 0 5px 15px;
+}
+.card-8 a{
+    text-decoration: none;
+    margin: 8px 20px 8px 20px;
+    color: #2f8b9c;
+}
+.card-8 a:hover{
+    color: rgb(240, 128, 16);
+}
+.card-9{
+    height: 400px;
+    width: 280px;
+    background-color: #fff;
+    border: 1px solid #d3cfcf;
+    position: absolute;
+    top: 800px;
+    left: 970px;
+}
+.card-9 h2{
+    margin: 20px 20px 5px 20px;
+}
+.card-9 img{
+    height: 270px;
+    width: 240px;
+    margin: 5px 20px 10px 20px;
+    cursor: pointer;
+
+}
+.card-9 a{
+    text-decoration: none;
+    margin: 5px 20px 10px 20px;
+    color: #2f8b9c;
+}
+.card-9 a:hover{
+    color: rgb(240, 128, 16);
+}
+.space{
+    width: 100%;
+    height: 505px;
+    background-color: #e3e6e6;
+}
+.maincontent{
+    width: 100%;
+    height: 900px;
+    background-color: #e3e6e6;
+}
+.main-one{
+    width: 97.3%;
+    height: 280px;
+    background-color: #fff;
+    margin: 0 20px 5px 20px;
+}
+.main-one h2{
+    margin: 20px 20px 10px 20px;
+    padding-top: 20px;
+    font-size: 22px;
+}
+.main-one img{
+    height: 190px;
+    width: 97%;
+    margin: 20px 20px 5px 20px;
+    cursor: pointer;
+}
+.main-tow{
+    width: 97.3%;
+    height: 280px;
+    background-color: #fff;
+    margin: 0 20px 5px 20px;
+}
+.main-tow h2{
+    margin: 20px 20px 10px 20px;
+    padding-top: 20px;
+    font-size: 22px;
+}
+.main-tow h2 a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left:10px;
+    color: #2f8b9c;
+}
+.main-tow h2 a:hover{
+    text-decoration: underline;
+    color: #dc810b;
+}
+
+.main-tow img{
+    height: 190px;
+    width: 97%;
+    margin: 20px 20px 5px 20px;
+    cursor: pointer;
+}
+.main-three img{
+    width: 980px;
+    height: 250px;
+    margin: 20px 110px 0 150px;
+    cursor: pointer;
+}
+.main-three p{
+    font-size: 11px;
+    display: flex;
+    opacity: 0.8;
+    justify-content: end;
+    margin: -1px 136px 0 0;
+    cursor: pointer;
+}
+.main-three p i{
+    opacity: 0.7;
+    margin-left: 4px;
+}
+.main-three p:hover{
+    opacity: 1;
+}
+.footer{
+    width: 100%;
+    height: 600px;
+    background-color:#232f3e;
+}
+.line{
+    width: 99.9%;
+    height: 50px;
+    background-color: #37475a;
+    border: 1px solid #232f3e;
+    cursor: pointer;
+    opacity: 0.8;
+}
+.line:hover{
+    opacity: 1;
+}
+.line h4{
+    display: flex;
+    font-weight: 400;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.foot-content{
+    display: flex;
+    color: #fff;
+    height: 360px;
+}
+.foot-content div{
+    width: 180px;
+    height: 150px;
+    margin:40px -30px 20px 130px;
+}
+.foot-content div h3{
+    font-weight: 550;
+    font-size: 16px;
+}
+.foot-content div ul{
+    font-size: 13px;
+    margin-left: -38px;
+    opacity: 0.8;
+    cursor: pointer;
+}
+.foot-content div ul:hover{
+    text-decoration: underline;
+    opacity: 1;
+}
+
+.line-2{
+    width: 99.9%;
+    border: 1px solid rgb(95, 93, 93);
+    opacity: 0.6;
+}
+.end-content{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.end-content img{
+    width: 130px;
+    height: 60px;
+   margin: 30px 60px 0 -10px ;
+}
+.end-content button{
+    width: 120px;
+    height: 33px;
+    margin-top:  40px;
+    background-color: transparent;
+    color: #f6f4f4;
+    border: 0.5px solid #fff;
+    border-radius: 3px;
+    opacity: 0.7;
+}
+.end-content button i{
+    padding: 0 3px 0 5px;
+}
+.end-2{
+    display: flex;
+    justify-content: center;
+    margin: 5px 0 10px 0;
+}
+.end-2 p{
+   color: #fff;
+   font-size: 12px;
+   margin: 5px 0 6px;
+   padding: 8px 9px;
+   cursor: pointer;
+   opacity: 0.8;
+}
+.end-2 p:hover{
+    text-decoration: underline;
+    opacity: 0.9;
+}
+.dev-name{
+    font-size: 10px;
+    display: flex;
+    justify-content: end;
+    padding-right: 15px;
+    color: #dfd112;
+    opacity: 0.8;
+}
